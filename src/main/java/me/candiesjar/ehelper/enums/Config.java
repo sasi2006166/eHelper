@@ -8,6 +8,10 @@ public enum Config {
     DEBUG("settings.debug"),
     TELEMETRY("settings.telemetry"),
 
+
+    RELOAD_COMMAND_PERMISSION("commands.reload.permission"),
+    DEBUG_COMMAND_PERMISSION("commands.debug.permission"),
+
     ;
 
 
@@ -17,6 +21,10 @@ public enum Config {
 
     Config(String path) {
         this.path = path;
+    }
+
+    public String getString() {
+        return eHelper.getConfigFileConfig().getString(getPath());
     }
 
     public boolean getBoolean() {

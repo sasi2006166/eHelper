@@ -12,3 +12,4 @@
 messages:
   prefix: "&6eHelper &8»"
   no_permission: "%prefix% &7You're lacking &6%permission% &7permission."
+  reload: "%prefix% &7Configuration has been reloaded."

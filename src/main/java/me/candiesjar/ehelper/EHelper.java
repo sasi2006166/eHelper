@@ -68,4 +68,9 @@ public final class EHelper extends Plugin {
         return messagesFile.getConfig();
     }
 
+    public void reloadAll() {
+        configFile.reload();
+        messagesFile.reload();
+    }
+
 }

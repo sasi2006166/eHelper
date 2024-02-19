@@ -16,6 +16,32 @@ settings:
   # Enable only if told by the developer.
   debug: false
 
+  # Method used by the plugin to check server status
+  # DEFAULT: Simple ping check with BungeeCord API.
+  # SOCKET: Uses Java socket API to check server status.
+  # WARNING: Change ONLY if you're facing issues.
+  ping_mode: "DEFAULT"
+
+  # Decide if the updater should be enabled.
+  updater: true
+
   # Enable telemetry, this will send anonymous data to the developer.
   #
   telemetry: true
+
+commands:
+
+  reload:
+    permission: "ehelper.reload"
+
+  debug:
+    permission: "ehelper.debug"
+
+  backup:
+    enabled: true
+    permission: "ehelper.backup"
+
+  info:
+    enabled: true
+    permission: "ehelper.info"
+
