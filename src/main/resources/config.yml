@@ -1,0 +1,21 @@
+#        _    _      _
+#      | |  | |    | |
+#   ___| |__| | ___| |_ __   ___ _ __
+#  / _ \  __  |/ _ \ | '_ \ / _ \ '__|
+# |  __/ |  | |  __/ | |_) |  __/ |
+#  \___|_|  |_|\___|_| .__/ \___|_|
+#                    | |
+#                    |_|
+# Made by CandiesJar | https://discord.gg/dJ8DG2cSzt
+# BungeeCord config file
+
+settings:
+
+  # Used by the plugin developer for debugging purposes.
+  # It will enable various debug components in the plugin.
+  # Enable only if told by the developer.
+  debug: false
+
+  # Enable telemetry, this will send anonymous data to the developer.
+  #
+  telemetry: true

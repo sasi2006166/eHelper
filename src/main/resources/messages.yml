@@ -1,0 +1,14 @@
+#        _    _      _
+#      | |  | |    | |
+#   ___| |__| | ___| |_ __   ___ _ __
+#  / _ \  __  |/ _ \ | '_ \ / _ \ '__|
+# |  __/ |  | |  __/ | |_) |  __/ |
+#  \___|_|  |_|\___|_| .__/ \___|_|
+#                    | |
+#                    |_|
+# Made by CandiesJar | https://discord.gg/dJ8DG2cSzt
+# BungeeCord messages file
+
+messages:
+  prefix: "&6eHelper &8»"
+  no_permission: "%prefix% &7You're lacking &6%permission% &7permission."
