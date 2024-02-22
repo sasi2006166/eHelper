@@ -16,7 +16,7 @@ public class DebugUtils {
     private final EHelper eHelper = EHelper.getInstance();
 
     public void debug(String message) {
-        eHelper.getLogger().info("[DEBUG] " + message);
+        eHelper.getLogger().severe("[DEBUG] " + message);
     }
 
     @SneakyThrows

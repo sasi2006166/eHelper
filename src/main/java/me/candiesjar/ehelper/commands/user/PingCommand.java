@@ -1,4 +1,22 @@
 package me.candiesjar.ehelper.commands.user;
 
-public class PingCommand {
+import net.md_5.bungee.api.CommandSender;
+import net.md_5.bungee.api.plugin.Command;
+import net.md_5.bungee.api.plugin.TabExecutor;
+
+public class PingCommand extends Command implements TabExecutor {
+
+    public PingCommand(String name) {
+        super(name);
+    }
+
+    @Override
+    public void execute(CommandSender commandSender, String[] strings) {
+
+    }
+
+    @Override
+    public Iterable<String> onTabComplete(CommandSender commandSender, String[] strings) {
+        return null;
+    }
 }

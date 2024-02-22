@@ -44,6 +44,10 @@ public final class EHelper extends Plugin {
         messagesFile = new ConfigFile(this, "messages.yml");
     }
 
+    private void loadCommands() {
+
+    }
+
     private void loadTelemetry() {
         boolean useTelemetry = Config.TELEMETRY.getBoolean();
 

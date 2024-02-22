@@ -1,10 +1,13 @@
 package me.candiesjar.ehelper.enums;
 
 import lombok.Getter;
+import net.md_5.bungee.api.CommandSender;
 
 public enum Messages {
 
-    RELOAD("messages.reload")
+    PREFIX("messages.prefix"),
+    RELOAD("messages.reload"),
+    NO_PERMISSION("messages.no_permission"),
 
     ;
 
@@ -16,6 +19,13 @@ public enum Messages {
         this.path = path;
     }
 
+    public void send(CommandSender sender) {
+
+    }
+
+    public void sendList(CommandSender sender) {
+
+    }
 
 
 }

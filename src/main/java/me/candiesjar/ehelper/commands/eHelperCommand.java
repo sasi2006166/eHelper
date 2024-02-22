@@ -18,8 +18,15 @@ public class eHelperCommand extends Command implements TabExecutor {
     private final EHelper plugin;
     private final HashMap<String, SubCommand> subCommands = Maps.newHashMap();
 
-    public eHelperCommand(EHelper plugin) {
+    public eHelperCommand(EHelper plugin, boolean hidden) {
         super("ehelper", null, "ehelp", "eh");
+
+        if (hidden) {
+            setPermissionMessage(null);
+        } else {
+
+        }
+
         this.plugin = plugin;
         subCommands.put("info", new InfoSubCommand());
         subCommands.put("debug", new DebugSubCommand());
@@ -28,6 +35,8 @@ public class eHelperCommand extends Command implements TabExecutor {
 
     @Override
     public void execute(CommandSender commandSender, String[] strings) {
+
+
 
     }
 

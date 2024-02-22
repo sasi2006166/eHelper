@@ -12,6 +12,9 @@ public enum Config {
     RELOAD_COMMAND_PERMISSION("commands.reload.permission"),
     DEBUG_COMMAND_PERMISSION("commands.debug.permission"),
 
+    USE_BACKUP_COMMAND("commands.backup.enabled"),
+    BACKUP_COMMAND_PERMISSION("commands.backup.permission"),
+
     ;
 
 

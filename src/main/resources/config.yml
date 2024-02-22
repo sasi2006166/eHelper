@@ -16,6 +16,11 @@ settings:
   # Enable only if told by the developer.
   debug: false
 
+  # Administrator permission for running /ehelp commands.
+  # Players without this will not see the tab complete for /ehelp.
+  # Even for 1.13+ servers, it is automatically hidden.
+  admin_permission: "ehelper.admin"
+
   # Method used by the plugin to check server status
   # DEFAULT: Simple ping check with BungeeCord API.
   # SOCKET: Uses Java socket API to check server status.
@@ -26,7 +31,7 @@ settings:
   updater: true
 
   # Enable telemetry, this will send anonymous data to the developer.
-  #
+  # -> https://bstats.org/plugin/bungeecord/eHelper/21049
   telemetry: true
 
 commands:
